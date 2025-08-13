@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-family: 'Arial', sans-serif;
     min-height: 100vh;
     position: relative;
     overflow-x: hidden;
@@ -21,7 +21,7 @@ body {
     z-index: -1;
     background: linear-gradient(-45deg, #4a148c, #7b1fa2, #8e24aa, #9c27b0);
     background-size: 400% 400%;
-    animation: gradientShift 7s ease infinite;
+    animation: gradientShift 15s ease infinite;
 }
 
 @keyframes gradientShift {
@@ -100,10 +100,10 @@ nav a.active {
 }
 
 .profile-img {
-    width: 500px;
-    height: fit-content;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    object-fit:contain;
+    object-fit: cover;
     margin: 0 auto 2rem;
     display: block;
     border: 5px solid rgba(156, 39, 176, 0.5);
@@ -150,7 +150,7 @@ h1 {
     font-size: 1.1rem;
     line-height: 1.8;
     color: #e0e0e0;
-    margin-bottom: 5px;
+    margin-bottom: 2rem;
 }
 
 .audio-section h3 {
@@ -247,5 +247,60 @@ footer {
 
     nav a {
         font-size: 1rem;
+    }
+
+    .profile-img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .about-content h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .page {
+        padding: 1rem;
+    }
+    
+    .container {
+        margin: 0.5rem;
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .brand-statement {
+        font-size: 1rem;
+    }
+
+    .profile-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .about-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .bio {
+        font-size: 1rem;
+    }
+
+    nav {
+        padding: 0.8rem 0;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .contact-badge {
+        padding: 0.6rem 1.2rem;
+        font-size: 0.9rem;
     }
 }
