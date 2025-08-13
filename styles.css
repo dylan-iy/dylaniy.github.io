@@ -102,8 +102,6 @@ nav a.active {
 .profile-img {
     width: 250px;
     height: 250px;
-    max-width: 90vw;
-    max-height: 90vw;
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto 2rem;
@@ -138,8 +136,6 @@ h1 {
 
 .about-img {
     width: 100%;
-    max-width: 100%;
-    height: auto;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
@@ -256,8 +252,6 @@ footer {
     .profile-img {
         width: 200px;
         height: 200px;
-        max-width: 80vw;
-        max-height: 80vw;
     }
 
     .about-content h2 {
@@ -286,8 +280,6 @@ footer {
     .profile-img {
         width: 180px;
         height: 180px;
-        max-width: 70vw;
-        max-height: 70vw;
     }
 
     .about-content h2 {
